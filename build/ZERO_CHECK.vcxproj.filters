@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\obedg\Documents\Personal\Software Engineering\Projects\2025\crypto_lib\build\CMakeFiles\03f30c9010ccafddf52c8dde0575d31d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7ED009DC-24D3-386D-B47B-7DA8D3BBD554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

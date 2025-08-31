@@ -1,0 +1,19 @@
+Start testing: Aug 31 22:58 Coordinated Universal Time
+----------------------------------------------------------
+1/1 Testing: crypto_tests
+1/1 Test: crypto_tests
+Command: "C:/Users/obedg/Documents/Personal/Software Engineering/Projects/2025/crypto_lib/build/Debug/crypto_tests.exe"
+Directory: C:/Users/obedg/Documents/Personal/Software Engineering/Projects/2025/crypto_lib/build
+"crypto_tests" start time: Aug 31 22:58 Coordinated Universal Time
+Output:
+----------------------------------------------------------
+Hello, world from tests
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"crypto_tests" end time: Aug 31 22:58 Coordinated Universal Time
+"crypto_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 31 22:58 Coordinated Universal Time
