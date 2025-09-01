@@ -61,6 +61,29 @@ namespace Caesar
     std::string decrypt(const std::string &cipher, int shift)
     {
         // pseudocode
-        return "";
+        /*
+            Literally the same logic as the encrypt function but simply substracting the shift.
+        */
+
+        std::string plaintext;
+        for (char letter : cipher)
+        {
+            if (letter >= 'A' && letter <= 'Z')
+            {
+                char base = 'A';
+                int unshift_character = ((letter - base) - shift + 26) % 26;
+                char character = unshift_character + static_cast<int>(base);
+                plaintext.push_back(character);
+            } else if (letter >= 'a' && letter <= 'z')
+            {
+                char base = 'a';
+                int unshift_character = ((letter - base) - shift + 26) % 26;
+                char character = unshift_character + static_cast<int>(base);
+                plaintext.push_back(character);
+            } else {
+                plaintext.push_back(letter);
+            }
+        }
+        return plaintext;
     }
 }
