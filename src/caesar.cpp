@@ -39,14 +39,14 @@ namespace Caesar
             if (letter >= 'A' && letter <= 'Z')
             {
                 char base = 'A';
-                int shifted_character = ((letter - base) + shift) % 26;
+                int shifted_character = ((letter - base) + shift + 26) % 26;
                 char new_char = shifted_character + static_cast<int>(base);
                 ciphertext.push_back(new_char);
             }
             else if (letter >= 'a' && letter <= 'z')
             {
                 char base = 'a';
-                int shifted_character = ((letter - base) + shift) % 26;
+                int shifted_character = ((letter - base) + shift + 26) % 26;
                 char new_char = shifted_character + static_cast<int>(base);
                 ciphertext.push_back(new_char);
             }
